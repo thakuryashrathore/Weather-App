@@ -18,23 +18,51 @@ The application allows users to search weather details by city name and displays
 Example of the application workflow:
 
 ```text
-:::
+::::::::::::::::::::----------> WEATHER APP <----------::::::::::::::::::::
 
 
 ENTER CITY NAME : Delhi
 
 
-searching weather for Delhi...
+Searching weather for Delhi...
 
 
 ***************************************************************************
                          WEATHER REPORT
 ***************************************************************************
+
 City        : Delhi
 Temperature : 32 C
 Humidity    : 45%
 Condition   : clear sky
 Wind Speed  : 3.5 m/s
+```
+
+---
+
+### ❌ Invalid City Name Handling
+
+The application validates city names and displays an error message for invalid inputs.
+
+#### Example 1: Wrong City Name
+
+```text
+ENTER CITY NAME : xyzabc
+
+
+City not found! Please enter a valid city name.
+```
+
+#### Example 2: Number as City Input
+
+```text
+ENTER CITY NAME : 12345
+
+
+Invalid city name!
+Please enter a valid city name.
+```
+
 ## 🚀 Features
 
 * 🌍 Search weather by city name
