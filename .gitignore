@@ -1,0 +1,7 @@
+.env
+main.exe
+weather.exe
+weather
+*.o
+weather.json
+tempCodeRunnerFile.cpp
